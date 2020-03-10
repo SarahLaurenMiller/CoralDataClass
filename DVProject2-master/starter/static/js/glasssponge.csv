@@ -1,5 +1,6 @@
-vernacularnamecategory,depthrange,depthrangecount
+commonname,sdepthrange,sdepthrangecount
 glass sponge,[0-700],1067
+glass sponge,[700-1300],1705
 glass sponge,[1300-1900],2477
 glass sponge,[1900-2500],5247
 glass sponge,[2500-3100],807
@@ -8,4 +9,3 @@ glass sponge,[3700-4300],203
 glass sponge,[4300-4900],131
 glass sponge,[4900-5500],138
 glass sponge,[5500-6100],12
-glass sponge,[700-1300],1705

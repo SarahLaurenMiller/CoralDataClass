@@ -1,5 +1,6 @@
-vernacularnamecategory,depthrange,depthrangecount
+commonname,depthrange,depthrangecount
 demosponge,[0-700],10277
+demosponge,[700-1300],1085
 demosponge,[1300-1900],537
 demosponge,[1900-2500],595
 demosponge,[2500-3100],219
@@ -8,4 +9,3 @@ demosponge,[3700-4300],20
 demosponge,[4300-4900],19
 demosponge,[4900-5500],14
 demosponge,[5500-6100],7
-demosponge,[700-1300],1085
