@@ -27,7 +27,7 @@ function buildPlot() {
 //  });
 
 //top 5 coral
-d3.csv("../static/js/Top3Corals.csv").then(function(finalcorals) {
+d3.csv("Top3Corals.csv").then(function(finalcorals) {
   console.log(finalcorals)
   let coralhist = [];
   finalcorals.forEach(row=>{
@@ -41,7 +41,7 @@ d3.csv("../static/js/Top3Corals.csv").then(function(finalcorals) {
   Plotly.newPlot("topcorals", data);
 });
 //observations over time trace 3-5
-d3.csv("../static/js/coralagg.csv").then(function(finalcorals2) {
+d3.csv("coralagg.csv").then(function(finalcorals2) {
   console.log(finalcorals2)
   let year = [];
   let count = [];

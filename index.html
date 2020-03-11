@@ -5,12 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="static/images/favicon.ico">
-    <title>Project 2 - Starter Code</title>
+    <title>Corals</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
-    <link href="../static/css/dashboard.css" rel="stylesheet">
+    <link href="dashboard.css" rel="stylesheet">
 </head>
 
 <body>
@@ -136,7 +136,7 @@ class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-cente
                 var g = svg.append("g")
                            .attr("transform", "translate(" + 100 + "," + 100 + ")");
             
-                d3.csv("../static/js/glasssponge.csv", function(error, data) {
+                d3.csv("glasssponge.csv", function(error, data) {
                     if (error) {
                         throw error;
                     }
@@ -200,7 +200,7 @@ class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-cente
                 var g2 = svg2.append("g")
                            .attr("transform", "translate(" + 100 + "," + 100 + ")");
             
-                d3.csv("../static/js/gorgoniancoral.csv", function(error, data) {
+                d3.csv("gorgoniancoral.csv", function(error, data) {
                     if (error) {
                         throw error;
                     }
@@ -264,7 +264,7 @@ class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-cente
                 var g3 = svg3.append("g")
                            .attr("transform", "translate(" + 100 + "," + 100 + ")");
             
-                d3.csv("../static/js/demosponge.csv", function(error, data) {
+                d3.csv("demosponge.csv", function(error, data) {
                     if (error) {
                         throw error;
                     }
@@ -346,7 +346,7 @@ class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-cente
         crossorigin="anonymous"></script>
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <script src="../static/js/appBasedOnhw.js"></script>
+    <script src="appBasedOnhw.js"></script>
 
     <!-- Icons -->
     <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
@@ -357,7 +357,7 @@ class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-cente
     
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-<script src="../static/js/appBasedOnhw.js"></script>
+<script src="appBasedOnhw.js"></script>
 
 
 </body>
